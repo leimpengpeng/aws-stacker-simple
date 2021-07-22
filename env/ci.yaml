@@ -1,0 +1,5 @@
+namespace: ew1-myproject-dev
+deployment_group: ew1-myproject
+bucket_name: automatecfg
+bucket_src_file: src-automatecfg
+lambda_src_file: version1.zip

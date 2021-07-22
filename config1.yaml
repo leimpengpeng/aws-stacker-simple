@@ -1,0 +1,11 @@
+namespace: ${namespace}
+stacker_bucket: ""
+
+stacks:
+  - name: mylambda
+    template_path: stacks/lambda.yaml.j2
+    tags:
+      DeploymenetName: ${namespace}-mylambda
+
+tags:
+  DeploymentGroup: ${deployment_group}
